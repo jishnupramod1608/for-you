@@ -65,19 +65,30 @@ body {
     transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
+.cat-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
 .photo-layer {
   position: absolute;
-  width: 60%;
-  height: 50%;
-  top: 35%;
+  width: 120px;
+  height: 120px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   background-image: url("us.jpeg");
   background-size: cover;
   background-position: center;
   opacity: 0;
   z-index: 0;
   transition: opacity 0.8s ease-in-out;
+  border-radius: 12px;
+}
+
+.cat {
+  position: relative;
+  z-index: 1;
 }
 
 .letter-window > *:not(.photo-layer) {
