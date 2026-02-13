@@ -70,8 +70,4 @@ yesBtn.addEventListener("click", () => {
 
     finalText.style.display = "block";
     document.querySelector(".photo-layer").style.opacity = "1";
-      document.body.style.backgroundImage = "url('us.jpeg')";
-    document.body.style.backgroundSize = "cover";
-    document.body.style.backgroundPosition = "center";
-    document.body.style.backgroundRepeat = "no-repeat";
 });
