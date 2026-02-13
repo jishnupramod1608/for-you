@@ -65,6 +65,16 @@ body {
     transition: transform 0.6s ease, opacity 0.6s ease;
 }
 
+.content-area {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
 .cat-wrapper {
     position: relative;
 }
