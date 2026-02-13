@@ -71,19 +71,19 @@ body {
 }
 
 .photo-layer {
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-image: url("us.jpeg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0;
-  z-index: 0;
-  transition: opacity 0.8s ease-in-out;
-  border-radius: 12px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("us.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0.8s ease-in-out;
+    border-radius: 20px;
 }
 
 .cat {
