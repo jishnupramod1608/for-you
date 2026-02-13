@@ -69,6 +69,7 @@ yesBtn.addEventListener("click", () => {
     buttons.style.display = "none";
 
     finalText.style.display = "block";
+    document.querySelector(".photo-layer").style.opacity = "1";
       document.body.style.backgroundImage = "url('us.jpeg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
